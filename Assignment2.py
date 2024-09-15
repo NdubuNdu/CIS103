@@ -38,9 +38,9 @@ for i in range(1, 5):  # Loop from 1 to 4 (inclusive)
 
 def reverse_string(s):
     return s[::-1]  # This tells Python to take the string s, start from the end (-1), and move backward to the beginning,reversing it.
-string = "Ndubuisi in python"
-reverse_string=reverse_string(string)
-print ("reversed string:",reverse_string)
+user_input = "Ndubuisi in python"
+rev_string =reverse_string(user_input)
+print(rev_string)
 
 #4b) formatting
 def format_output(name, age, salary):
